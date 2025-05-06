@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.logo-text {
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #10a37f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+hr {
+    margin: 20px 0;
+}
