@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ChatGPT 登入</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="logo-text">ChatGPT</div>
+<div class="header">
+  <div class="logo-text">ChatGPT 登入</div>
+  <a href="#" class="help-link">需要幫助？</a>
+</div>
 
-<form class="login-box">
-  <div class="container">
+<div class="container">
+  <!-- 左側區域 -->
+  <div class="left">
+    <h2>探索更多功能</h2>
+    <p>ChatGPT 升級版，支援語音、圖片、多模型切換，立即體驗！</p>
+    <ul>
+      <li>🚀 快速回答</li>
+      <li>🖼️ 生成圖片</li>
+      <li>🎙️ 語音聊天</li>
+      <li>🔐 進階設定</li>
+    </ul>
+  </div>
+
+  <!-- 右側登入表單 -->
+  <form class="right login-box">
     <h1>歡迎回來</h1>
     <input type="email" placeholder="電子郵件地址" class="input" required>
+    <input type="password" placeholder="密碼" class="input" required>
+    <div class="checkbox-row">
+      <input type="checkbox" id="remember">
+      <label for="remember">記住我</label>
+    </div>
     <button type="submit" class="btn">繼續</button>
-    <p>還沒有帳戶嗎？<a href="#">註冊</a></p>
+    <a href="#" class="forgot-link">忘記密碼？</a>
     <hr>
     <button type="button" class="btn social-btn">使用 Google 帳戶繼續</button>
     <button type="button" class="btn social-btn">使用 Microsoft 帳戶繼續</button>
     <button type="button" class="btn social-btn">使用 Apple 帳戶繼續</button>
     <button type="button" class="btn social-btn">使用電話繼續</button>
-  </div>
-</form>
+  </form>
+</div>
 
 <script src="script.js"></script>
 </body>
